@@ -5,7 +5,7 @@ generations:
   - name: "First Generation"
     start_year: 2024
     end_year: null
-    description: "The Kia EV3 is a battery electric subcompact crossover SUV (B-segment) produced by Kia. It is the fourth model in the manufacturer's 'EV' line-up after the EV5. The production version was unveiled on May 23, 2024, with sales commencing in July 2024 in South Korea. The EV3 is built on the K3 platform with E-GMP 400V architecture and features a modern design with Kia's 'Opposites United' philosophy, 'Digital Tiger Face' front fascia, and 'Star Map' signature lighting. The interior features three displays: a 12-inch instrument cluster, 5-inch touchscreen for HVAC controls, and a 12-inch infotainment system."
+    description: "The Kia EV3 is a battery electric subcompact crossover SUV (B-segment) produced by Kia. It is the fourth model in the manufacturer's 'EV' line-up after the EV5. The production version was unveiled on May 23, 2024, with sales commencing in July 2024. The EV3 is built on the K3 platform with E-GMP 400V architecture and features Kia's 'Opposites United' design philosophy, 'Digital Tiger Face' front fascia, and 'Star Map' signature vertical lighting. The interior features three displays: a 12-inch instrument cluster, a 5-inch touchscreen for HVAC controls, and a 12-inch infotainment system. It was previewed by the EV3 Concept on October 12, 2023."
     platform: "K3, E-GMP (400V architecture)"
     body_styles:
       - "5-door SUV"
