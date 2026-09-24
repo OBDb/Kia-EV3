@@ -1,4 +1,4 @@
-command_id: 7E0.2103
+command_id: 7E0.7E8.2103
 test_cases:
 - expected_values:
     KIA_DISTANCE_SINCE_LAST_DPF_REGEN: 0

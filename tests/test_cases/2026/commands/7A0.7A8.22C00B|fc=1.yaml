@@ -24,6 +24,7 @@ test_cases:
     KIA_TT_FL_PRE21: 205
     KIA_TT_FR: 205
     KIA_TT_RL: 205
+    KIA_TT_RL_PRE21: -48
     KIA_TT_RR: 205
     KIA_TT_RR_PRE21: -48
     KIA_TW_FL: 0
