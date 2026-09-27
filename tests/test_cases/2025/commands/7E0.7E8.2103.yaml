@@ -3,7 +3,7 @@ test_cases:
 - expected_values:
     KIA_DISTANCE_SINCE_LAST_DPF_REGEN: 0
     KIA_EXHAUST_GAS_T: 99
-    KIA_ODOMETER_AT_LAST_DPF_REGEN: 0
+    KIA_ODO_LAST_DPF_REGEN: 0
     KIA_ODO_V2: 0
   response: |-
     7E8103F610300000000
