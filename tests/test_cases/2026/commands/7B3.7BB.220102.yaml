@@ -1,8 +1,8 @@
 command_id: 7B3.7BB.220102
 test_cases:
 - expected_values:
-    KIA_HVAC_COOLANT_T: 31.5
-    KIA_HVAC_INVERTER_T: -40
+    EV3_HVAC_COOLANT_T: 31.5
+    EV3_HVAC_INVERTER_T: -40
   response: |-
     7BB1025620102B9FFC0
     7BB21008FFF000000FF
