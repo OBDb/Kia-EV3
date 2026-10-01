@@ -1,9 +1,9 @@
 command_id: 7A0.7A8.22C00D|fc=1
 test_cases:
 - expected_values:
-    KIA_SENS_2_ODO_EVT_1: 11781
-    KIA_SENS_2_ODO_EVT_2: 0
-    KIA_SENS_2_ODO_EVT_3: 0
+    EV3_SENS_2_ODO_EVT_1: 11781
+    EV3_SENS_2_ODO_EVT_2: 0
+    EV3_SENS_2_ODO_EVT_3: 0
   response: |-
     7A8102E62C00D000000
     7A82100009088AC78D9

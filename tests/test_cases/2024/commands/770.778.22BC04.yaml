@@ -1,13 +1,12 @@
 command_id: 770.778.22BC04
 test_cases:
 - expected_values:
-    KIA_BELT_RL: 0
-    KIA_BELT_RM: 0
-    KIA_BELT_RR: 1
-    KIA_GEAR_R: 0
-    KIA_LOCK_FL: 0
-    KIA_LOCK_FR: 0
-    KIA_REVERSE_GEAR: 0
+    EV3_BELT_RL: 0
+    EV3_BELT_RM: 0
+    EV3_BELT_RR: 1
+    EV3_GEAR_R_2: 0
+    EV3_LOCK_FL: 0
+    EV3_LOCK_FR: 0
   response: |-
     778100B62BC04BFFFBF
     7782178000F0200AAAA
