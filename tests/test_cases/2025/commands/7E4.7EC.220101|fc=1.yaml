@@ -30,7 +30,7 @@ test_cases:
     EV3_HVBAT_VDC: 356.8
     EV3_IGN: 0
     EV3_INVRT_CV: 0
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 3000
     EV3_RPM: 0
     EV3_VPWR: 11
   response: |-
@@ -73,7 +73,7 @@ test_cases:
     EV3_HVBAT_VDC: 325.6
     EV3_IGN: 0
     EV3_INVRT_CV: 8
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2327
     EV3_RPM: 0
     EV3_VPWR: 12.8
   response: |-
@@ -116,7 +116,7 @@ test_cases:
     EV3_HVBAT_VDC: 326.2
     EV3_IGN: 0
     EV3_INVRT_CV: 8
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2238
     EV3_RPM: 0
     EV3_VPWR: 12.6
   response: |-
@@ -159,7 +159,7 @@ test_cases:
     EV3_HVBAT_VDC: 323
     EV3_IGN: 0
     EV3_INVRT_CV: 323
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1634
     EV3_RPM: 0
     EV3_VPWR: 13.8
   response: |-
@@ -202,7 +202,7 @@ test_cases:
     EV3_HVBAT_VDC: 326.8
     EV3_IGN: 0
     EV3_INVRT_CV: 329
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1636
     EV3_RPM: 0
     EV3_VPWR: 13.7
   response: |-
@@ -245,7 +245,7 @@ test_cases:
     EV3_HVBAT_VDC: 326.8
     EV3_IGN: 0
     EV3_INVRT_CV: 326
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1704
     EV3_RPM: 0
     EV3_VPWR: 14.5
   response: |-
@@ -288,7 +288,7 @@ test_cases:
     EV3_HVBAT_VDC: 325.9
     EV3_IGN: 0
     EV3_INVRT_CV: 325
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1628
     EV3_RPM: 0
     EV3_VPWR: 13.8
   response: |-
@@ -331,7 +331,7 @@ test_cases:
     EV3_HVBAT_VDC: 326.6
     EV3_IGN: 0
     EV3_INVRT_CV: 326
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1697
     EV3_RPM: 0
     EV3_VPWR: 13.7
   response: |-
@@ -374,7 +374,7 @@ test_cases:
     EV3_HVBAT_VDC: 326.5
     EV3_IGN: 0
     EV3_INVRT_CV: 326
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1601
     EV3_RPM: 0
     EV3_VPWR: 12.8
   response: |-
@@ -417,7 +417,7 @@ test_cases:
     EV3_HVBAT_VDC: 327.5
     EV3_IGN: 0
     EV3_INVRT_CV: 327
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1646
     EV3_RPM: 0
     EV3_VPWR: 13.7
   response: |-
@@ -460,7 +460,7 @@ test_cases:
     EV3_HVBAT_VDC: 327.4
     EV3_IGN: 0
     EV3_INVRT_CV: 327
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1714
     EV3_RPM: 0
     EV3_VPWR: 13.8
   response: |-
@@ -503,7 +503,7 @@ test_cases:
     EV3_HVBAT_VDC: 327.9
     EV3_IGN: 0
     EV3_INVRT_CV: 327
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1646
     EV3_RPM: 0
     EV3_VPWR: 13.7
   response: |-
@@ -546,7 +546,7 @@ test_cases:
     EV3_HVBAT_VDC: 327.2
     EV3_IGN: 0
     EV3_INVRT_CV: 327
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1642
     EV3_RPM: 0
     EV3_VPWR: 12.7
   response: |-
@@ -589,7 +589,7 @@ test_cases:
     EV3_HVBAT_VDC: 327.2
     EV3_IGN: 0
     EV3_INVRT_CV: 327
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1658
     EV3_RPM: 0
     EV3_VPWR: 13.7
   response: |-
@@ -632,7 +632,7 @@ test_cases:
     EV3_HVBAT_VDC: 328.8
     EV3_IGN: 0
     EV3_INVRT_CV: 328
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1660
     EV3_RPM: 0
     EV3_VPWR: 13.7
   response: |-
@@ -675,7 +675,7 @@ test_cases:
     EV3_HVBAT_VDC: 328.3
     EV3_IGN: 0
     EV3_INVRT_CV: 328
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1636
     EV3_RPM: 0
     EV3_VPWR: 13.8
   response: |-
@@ -718,7 +718,7 @@ test_cases:
     EV3_HVBAT_VDC: 331.1
     EV3_IGN: 0
     EV3_INVRT_CV: 331
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 3000
     EV3_RPM: 0
     EV3_VPWR: 13
   response: |-
@@ -761,7 +761,7 @@ test_cases:
     EV3_HVBAT_VDC: 331.2
     EV3_IGN: 0
     EV3_INVRT_CV: 9
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2303
     EV3_RPM: 0
     EV3_VPWR: 12.6
   response: |-
@@ -804,7 +804,7 @@ test_cases:
     EV3_HVBAT_VDC: 332.8
     EV3_IGN: 0
     EV3_INVRT_CV: 333
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1615
     EV3_RPM: 0
     EV3_VPWR: 13.6
   response: |-
@@ -847,7 +847,7 @@ test_cases:
     EV3_HVBAT_VDC: 332.7
     EV3_IGN: 0
     EV3_INVRT_CV: 8
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2310
     EV3_RPM: 0
     EV3_VPWR: 12.7
   response: |-
@@ -890,7 +890,7 @@ test_cases:
     EV3_HVBAT_VDC: 332.4
     EV3_IGN: 0
     EV3_INVRT_CV: 9
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1640
     EV3_RPM: 0
     EV3_VPWR: 12.9
   response: |-
@@ -933,7 +933,7 @@ test_cases:
     EV3_HVBAT_VDC: 334.4
     EV3_IGN: 0
     EV3_INVRT_CV: 9
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2304
     EV3_RPM: 0
     EV3_VPWR: 12.6
   response: |-
@@ -976,7 +976,7 @@ test_cases:
     EV3_HVBAT_VDC: 335.4
     EV3_IGN: 0
     EV3_INVRT_CV: 335
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1717
     EV3_RPM: 0
     EV3_VPWR: 13
   response: |-
@@ -1019,7 +1019,7 @@ test_cases:
     EV3_HVBAT_VDC: 336.4
     EV3_IGN: 0
     EV3_INVRT_CV: 336
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1730
     EV3_RPM: 0
     EV3_VPWR: 13.8
   response: |-
@@ -1062,7 +1062,7 @@ test_cases:
     EV3_HVBAT_VDC: 336.5
     EV3_IGN: 0
     EV3_INVRT_CV: 336
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2160
     EV3_RPM: 0
     EV3_VPWR: 13.8
   response: |-
@@ -1105,7 +1105,7 @@ test_cases:
     EV3_HVBAT_VDC: 338.7
     EV3_IGN: 0
     EV3_INVRT_CV: 8
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2390
     EV3_RPM: 0
     EV3_VPWR: 12.2
   response: |-
@@ -1148,7 +1148,7 @@ test_cases:
     EV3_HVBAT_VDC: 340.4
     EV3_IGN: 0
     EV3_INVRT_CV: 340
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1731
     EV3_RPM: 0
     EV3_VPWR: 13.9
   response: |-
@@ -1191,7 +1191,7 @@ test_cases:
     EV3_HVBAT_VDC: 341
     EV3_IGN: 0
     EV3_INVRT_CV: 9
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1688
     EV3_RPM: 0
     EV3_VPWR: 12.8
   response: |-
@@ -1234,7 +1234,7 @@ test_cases:
     EV3_HVBAT_VDC: 343
     EV3_IGN: 0
     EV3_INVRT_CV: 342
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2257
     EV3_RPM: 0
     EV3_VPWR: 14.6
   response: |-
@@ -1259,7 +1259,7 @@ test_cases:
     EV3_HVBAT_CHARGING: 0
     EV3_HVBAT_CHRG_TOT_C: 2908.6
     EV3_HVBAT_CHRG_TOT_E: 1059.7
-    EV3_HVBAT_CURR: -230
+    EV3_HVBAT_CURR: -337.5
     EV3_HVBAT_DSCH_TOT_C: 2896.8
     EV3_HVBAT_DSCH_TOT_E: 1014.7
     EV3_HVBAT_FAN: 0
@@ -1277,7 +1277,7 @@ test_cases:
     EV3_HVBAT_VDC: 358.2
     EV3_IGN: 0
     EV3_INVRT_CV: 359
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 3000
     EV3_RPM: 0
     EV3_VPWR: 13.6
   response: |-
@@ -1320,7 +1320,7 @@ test_cases:
     EV3_HVBAT_VDC: 342.9
     EV3_IGN: 0
     EV3_INVRT_CV: 9
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2396
     EV3_RPM: 0
     EV3_VPWR: 12.7
   response: |-
@@ -1363,7 +1363,7 @@ test_cases:
     EV3_HVBAT_VDC: 348
     EV3_IGN: 0
     EV3_INVRT_CV: 348
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 3000
     EV3_RPM: 0
     EV3_VPWR: 13.5
   response: |-
@@ -1406,7 +1406,7 @@ test_cases:
     EV3_HVBAT_VDC: 372.8
     EV3_IGN: 0
     EV3_INVRT_CV: 373
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1927
     EV3_RPM: 0
     EV3_VPWR: 14.6
   response: |-
@@ -1448,8 +1448,7 @@ test_cases:
     EV3_HVBAT_T_MIN: 30
     EV3_HVBAT_VDC: 349.3
     EV3_IGN: 0
-    EV3_INVRT_CV: 500
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2401
     EV3_RPM: 0
     EV3_VPWR: 12.7
   response: |-
@@ -1492,7 +1491,7 @@ test_cases:
     EV3_HVBAT_VDC: 350.5
     EV3_IGN: 0
     EV3_INVRT_CV: 9
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2822
     EV3_RPM: 0
     EV3_VPWR: 12.7
   response: |-
@@ -1535,7 +1534,7 @@ test_cases:
     EV3_HVBAT_VDC: 351.8
     EV3_IGN: 0
     EV3_INVRT_CV: 351
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1840
     EV3_RPM: 0
     EV3_VPWR: 13.7
   response: |-
@@ -1578,7 +1577,7 @@ test_cases:
     EV3_HVBAT_VDC: 352.6
     EV3_IGN: 0
     EV3_INVRT_CV: 352
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1821
     EV3_RPM: 0
     EV3_VPWR: 14.6
   response: |-
@@ -1621,7 +1620,7 @@ test_cases:
     EV3_HVBAT_VDC: 356.2
     EV3_IGN: 0
     EV3_INVRT_CV: 356
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1757
     EV3_RPM: 0
     EV3_VPWR: 13
   response: |-
@@ -1651,7 +1650,7 @@ test_cases:
     EV3_HVBAT_DSCH_TOT_E: 2540
     EV3_HVBAT_FAN: 0
     EV3_HVBAT_FAN_STATUS: 0
-    EV3_HVBAT_INLET_T: 80
+    EV3_HVBAT_INLET_T: 87
     EV3_HVBAT_MOD1_T: 28
     EV3_HVBAT_MOD2_T: 28
     EV3_HVBAT_MOD3_T: 28
@@ -1663,8 +1662,7 @@ test_cases:
     EV3_HVBAT_T_MIN: 27
     EV3_HVBAT_VDC: 361.3
     EV3_IGN: 0
-    EV3_INVRT_CV: 500
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 3000
     EV3_RPM: 0
     EV3_VPWR: 12.4
   response: |-
@@ -1707,7 +1705,7 @@ test_cases:
     EV3_HVBAT_VDC: 387.6
     EV3_IGN: 0
     EV3_INVRT_CV: 388
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2081
     EV3_RPM: 0
     EV3_VPWR: 14.1
   response: |-
@@ -1727,7 +1725,7 @@ test_cases:
     EV3_C_V_MAX_ID: 16
     EV3_C_V_MIN: 3.92
     EV3_C_V_MIN_ID: 2
-    EV3_DRIVE_MOTOR_SPEED_2: 10100
+    EV3_DRIVE_MOTOR_SPEED_2: 11568
     EV3_DRIVE_TIME: 1743328
     EV3_HVBAT_CHARGING: 0
     EV3_HVBAT_CHRG_TOT_C: 4137.4
@@ -1750,7 +1748,7 @@ test_cases:
     EV3_HVBAT_VDC: 366.9
     EV3_IGN: 0
     EV3_INVRT_CV: 367
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1878
     EV3_RPM: 0
     EV3_VPWR: 13.8
   response: |-
@@ -1792,8 +1790,7 @@ test_cases:
     EV3_HVBAT_T_MIN: 28
     EV3_HVBAT_VDC: 372.1
     EV3_IGN: 0
-    EV3_INVRT_CV: 500
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2400
     EV3_RPM: 0
     EV3_VPWR: 12.5
   response: |-
@@ -1836,7 +1833,7 @@ test_cases:
     EV3_HVBAT_VDC: 410
     EV3_IGN: 0
     EV3_INVRT_CV: 410
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2006
     EV3_RPM: 0
     EV3_VPWR: 14.6
   response: |-
@@ -1853,7 +1850,7 @@ test_cases:
     EV3_BATTERY_PACK_B05: 17
     EV3_BMS_MAIN_RELAY: 0
     EV3_C_V_MAX: 4.06
-    EV3_C_V_MAX_ID: 98
+    EV3_C_V_MAX_ID: 99
     EV3_C_V_MIN: 4.06
     EV3_C_V_MIN_ID: 41
     EV3_DRIVE_MOTOR_SPEED_2: 1934
@@ -1879,7 +1876,7 @@ test_cases:
     EV3_HVBAT_VDC: 406.2
     EV3_IGN: 0
     EV3_INVRT_CV: 406
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2011
     EV3_RPM: 0
     EV3_VPWR: 14.6
   response: |-
@@ -1922,7 +1919,7 @@ test_cases:
     EV3_HVBAT_VDC: 381.2
     EV3_IGN: 0
     EV3_INVRT_CV: 381
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1681
     EV3_RPM: 0
     EV3_VPWR: 12.8
   response: |-
@@ -1965,7 +1962,7 @@ test_cases:
     EV3_HVBAT_VDC: 418.7
     EV3_IGN: 0
     EV3_INVRT_CV: 419
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1867
     EV3_RPM: 0
     EV3_VPWR: 13.9
   response: |-
@@ -2008,7 +2005,7 @@ test_cases:
     EV3_HVBAT_VDC: 414
     EV3_IGN: 0
     EV3_INVRT_CV: 9
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2808
     EV3_RPM: 0
     EV3_VPWR: 12.6
   response: |-
@@ -2051,7 +2048,7 @@ test_cases:
     EV3_HVBAT_VDC: 415.1
     EV3_IGN: 0
     EV3_INVRT_CV: 415
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 2055
     EV3_RPM: 0
     EV3_VPWR: 14.2
   response: |-

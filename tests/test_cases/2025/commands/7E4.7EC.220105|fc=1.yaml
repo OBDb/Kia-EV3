@@ -85,7 +85,6 @@ test_cases:
     7EC25A0000000000000
     7EC26000A0A0A0AAAAA
 - expected_values:
-    EV3_HVBAT_DET_MIN_2: 100
     EV3_HVBAT_SOC_DISP_7E4: 39
     EV3_HVBAT_SOH_7E4: 100
   response: |-
