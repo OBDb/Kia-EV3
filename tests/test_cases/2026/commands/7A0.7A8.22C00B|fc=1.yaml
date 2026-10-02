@@ -1,0 +1,18 @@
+command_id: 7A0.7A8.22C00B|fc=1
+test_cases:
+- expected_values:
+    EV3_TP_FL: null
+    EV3_TP_FR: null
+    EV3_TP_RL: null
+    EV3_TP_RR: null
+    EV3_TT_FL: null
+    EV3_TT_FR: null
+    EV3_TT_RL: null
+    EV3_TT_RR: null
+  response: |-
+    7A8102462C00B000000
+    7A8210000FF00000200
+    7A822FF00000200FF00
+    7A823000200FF000002
+    7A824FF000000000000
+    7A8250000AAAAAAAAAA

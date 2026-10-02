@@ -1,6 +1,38 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
+    EV3_TP_FL: null
+    EV3_TP_FR: null
+    EV3_TP_RL: null
+    EV3_TP_RR: null
+    EV3_TT_FL: null
+    EV3_TT_FR: null
+    EV3_TT_RL: null
+    EV3_TT_RR: null
+  response: |-
+    7A8102462C00B000000
+    7A8210000FF00000200
+    7A822FF00000200FF00
+    7A823000200FF000002
+    7A82449000000000000
+    7A8250000AAAAAAAAAA
+- expected_values:
+    EV3_TP_FL: null
+    EV3_TP_FR: null
+    EV3_TP_RL: null
+    EV3_TP_RR: null
+    EV3_TT_FL: null
+    EV3_TT_FR: null
+    EV3_TT_RL: null
+    EV3_TT_RR: null
+  response: |-
+    7A8102462C00B000000
+    7A8210000FF00000200
+    7A822FF00000200FF00
+    7A823000200FF000002
+    7A824FF000000000000
+    7A8250000AAAAAAAAAA
+- expected_values:
     EV3_TP_FR: 34.2
     EV3_TT_FR: 31
   response: |-
@@ -45,22 +77,6 @@ test_cases:
     7A8223B000400BF3D00
     7A8230400BF3D000400
     7A824FF00009EB09EB0
-    7A8259EB0AAAAAAAAAA
-- expected_values:
-    EV3_TP_FL: 31.6
-    EV3_TP_FR: 32
-    EV3_TP_RL: 32
-    EV3_TP_RR: 32
-    EV3_TT_FL: 23
-    EV3_TT_FR: 23
-    EV3_TT_RL: 25
-    EV3_TT_RR: 24
-  response: |-
-    7A8102462C00B000000
-    7A821009E49000400A0
-    7A82249000400A04B00
-    7A8230400A04A000400
-    7A824499EB09EB09FB0
     7A8259EB0AAAAAAAAAA
 - expected_values:
     EV3_TP_FL: 31.6
