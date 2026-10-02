@@ -30,7 +30,7 @@ test_cases:
     EV3_HVBAT_VDC: 366.1
     EV3_IGN: 0
     EV3_INVRT_CV: 366
-    EV3_ISO_R: 1000
+    EV3_ISO_R: 1866
     EV3_RPM: 0
     EV3_VPWR: 13.7
   response: |-
