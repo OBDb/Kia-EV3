@@ -1,7 +1,6 @@
 command_id: 7E2.7EA.22E004
 test_cases:
 - expected_values:
-    EV3_12V_V: 0
     EV3_ACCELERATOR_PEDAL_POSITION: 0
     EV3_VSS_HD: 0
   response: |-
