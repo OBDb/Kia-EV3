@@ -1,6 +1,14 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
+    EV3_ODO_KM: 2704
+    EV3_ODO_MI: 0
+  response: |-
+    7CE101862B002E00000
+    7CE2100FF9B000A9000
+    7CE2200000000000000
+    7CE2300000000AAAAAA
+- expected_values:
     EV3_ODO_KM: 2703
     EV3_ODO_MI: 0
   response: |-
