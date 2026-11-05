@@ -1,7 +1,9 @@
 { "ecu": [
+    { "hdr": "730", "type": "driverAssistance" },
     { "hdr": "744", "type": "charger" },
     { "hdr": "7A0", "type": "bodyControl" },
     { "hdr": "7C6", "type": "cluster" },
+    { "hdr": "7D1", "type": "abs" },
     { "hdr": "7E2", "type": "vehicleControl" },
     { "hdr": "7E4", "type": "battery" }
   ],
@@ -112,20 +114,20 @@
     {"id": "EV3_HL_HIGH", "path": "Lights", "fmt": {"bix": 55, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight high beam"},
     {"id": "EV3_HL_LOW",  "path": "Lights", "fmt": {"bix": 63, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight low beam"}
   ]},
-{ "hdr": "770", "rax": "778", "fcm1": true, "cmd": {"22": "BC10"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "770", "rax": "778", "fcm1": true, "cmd": {"22": "BC10"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_LIGHTS_CODE", "path": "Lights", "fmt": {"bix": 32, "len": 4, "max": 15, "unit": "scalar" }, "name": "Exterior lights state code"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "B008"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "B008"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_BRAKE_SW", "path": "Control", "fmt": {"bix": 51, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "cmd": {"22": "B009"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "cmd": {"22": "B009"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_PARKING_SENS_REAR",        "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Parking sensor rear center left level"},
     {"id": "EV3_PARKING_SENS_REAR_CENTER", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "scalar" }, "name": "Parking sensor rear center right level"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C002"}, "freq": 60, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C002"}, "freq": 60, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_TID_1", "path": "Tires", "fmt": {"bix": 32,  "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Tire sensor 1 ID"},
     {"id": "EV3_TID_2", "path": "Tires", "fmt": {"bix": 64,  "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Tire sensor 2 ID"},
@@ -143,25 +145,25 @@
     {"id": "EV3_TP_RR", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "nullmax": 51,  "unit": "psi"     }, "name": "Rear right tire pressure",     "suggestedMetric": "rearRightTirePressure"},
     {"id": "EV3_TT_RR", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 205, "min": -50,           "add": -50, "nullmin": -50, "nullmax": 205, "unit": "celsius" }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00C"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00C"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_SENS_1_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 1 odometer event 1"},
     {"id": "EV3_SENS_1_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 1 odometer event 2"},
     {"id": "EV3_SENS_1_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 1 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00D"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00D"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_SENS_2_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 2 odometer event 1"},
     {"id": "EV3_SENS_2_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 2 odometer event 2"},
     {"id": "EV3_SENS_2_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 2 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00E"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00E"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_SENS_3_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 3 odometer event 1"},
     {"id": "EV3_SENS_3_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 3 odometer event 2"},
     {"id": "EV3_SENS_3_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 3 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00F"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00F"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_SENS_4_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 4 odometer event 1"},
     {"id": "EV3_SENS_4_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 4 odometer event 2"},
@@ -199,7 +201,7 @@
     {"id": "EV3_WHEEL_RL_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "EV3_WHEEL_RR_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "C101"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "C101"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_FL_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "EV3_FR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
@@ -416,7 +418,7 @@
     {"id": "EV3_HVBAT_DET_MIN_2",    "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 131.07, "mul": 2,   "div": 1000, "nullmax": 131.07, "unit": "kilowattHours" }, "name": "HV battery remaining energy"},
     {"id": "EV3_HVBAT_SOC_DISP_7E4", "path": "Battery", "fmt": {"bix": 248, "len": 8,  "max": 100,    "mul": 0.5,                                 "unit": "percent"       }, "name": "HV battery charge",           "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0106"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0106"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "EV3_BMS_STATE",         "path": "Battery", "fmt": {            "len": 8, "max": 15,                                         "unit": "scalar"  }, "name": "Battery management state"},
     {"id": "EV3_HVBAT_WCS_INLET_T", "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 127,  "min": -128,            "sign": true, "unit": "celsius" }, "name": "Battery temperature at WCS input"},
